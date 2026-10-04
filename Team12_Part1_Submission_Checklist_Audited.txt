@@ -1,0 +1,24 @@
+TEAM 12 – PART-1 SUBMISSION CHECKLIST
+Railway Reservation System | Section F | PES University
+
+[OK] SRS present
+[OK] Functional and non-functional requirements present
+[OK] UML use-case diagram present
+[OK] Security objectives and requirements present
+[OK] SAD present
+[OK] Component diagram and descriptions present
+[OK] Layered architecture pattern documented
+[OK] SAD traceability present
+[OK] Security architecture present
+[OK] Two project-specific sequence diagrams present
+[OK] Module/API interface design present
+[OK] Error handling present
+[OK] Test Plan present
+[OK] Test Plan Sections 3, 4 and 5 present
+[OK] Security validation is Section 5.1
+[OK] SRS/Test Plan traceability present
+[OK] Functional and non-functional planned coverage present
+[OK] Minimum 7–10 test-case requirement exceeded
+[PENDING] Instructor/team signatures or approvals, if required
+[PENDING] Implementation and actual test execution
+[PENDING] Final code/system-test references in RTM after implementation
