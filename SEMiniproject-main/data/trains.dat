@@ -1,3 +1,0 @@
-# Train Data: trainId|trainName|source|destination|departureTime|arrivalTime|totalSeats|availableSeats
-T001|Shatabdi Express|Bangalore|Chennai|06:00|11:00|120|117
-T002|Rajdhani Express|Bangalore|Delhi|15:30|07:00|200|198
