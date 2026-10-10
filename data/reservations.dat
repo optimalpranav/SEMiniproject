@@ -1,0 +1,4 @@
+# Reservation Data: reservationId|trainId|passengerName|passengerAge|passengerGender|journeyDate|seatsBooked|status
+RES001|T001|Rahul Sharma|28|M|25-10-2026|2|2
+RES002|T002|Priya Nair|35|F|26-10-2026|1|1
+RES003|T001|Vikram Singh|30|M|25-10-2026|3|2

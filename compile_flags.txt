@@ -1,0 +1,6 @@
+-xc++
+-std=c++17
+-Wall
+-Wextra
+-Isrc
+--target=x86_64-w64-mingw32
