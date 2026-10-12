@@ -1,0 +1,30 @@
+name: C++ Build and Tests
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up C++ compiler
+        run: sudo apt-get update && sudo apt-get install -y g++
+
+      - name: Build cancellation tests
+        run: |
+          mkdir -p build
+          g++ -std=c++17 -Wall -Wextra -pedantic \
+            src/data_store.cpp \
+            src/validation.cpp \
+            src/reservation.cpp \
+            src/cancellation.cpp \
+            tests/test_cancellation.cpp \
+            -o build/test_cancellation
+
+      - name: Run cancellation tests
+        run: ./build/test_cancellation
